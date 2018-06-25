@@ -1,0 +1,177 @@
+/******************************************
+    autor: João Mendes
+    year: 2018
+    contacto: joaorbmendes@gmail.com
+    projecto: jambo | flag
+
+    Cores:
+    laranja: f8b147;
+    cinza claro: #dee2e6;
+
+******************************************/
+
+
+
+
+
+/******************************************
+************** Header *****************
+******************************************/
+@keyframes animacao {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+img, #banner {
+    animation-name: animacao;
+    animation-duration: 2s;
+}
+.logo {
+    text-align: center;
+    background-color: white;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    display: block;
+}
+.cinza {
+    color: #888;
+}
+#banner {
+   /* display:none; */
+}
+
+.msgErro {
+    color:green;
+}
+.img-thumbnail {
+    border-radius: 0px;
+}
+.bg-dark {
+    background-color: white!important;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+.nav-link:hover, nav-link:hover, nav-link:active, nav-link:visited {
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+
+}
+a.btn-menu, .navbar-toggler {
+    color: black;
+    text-decoration: none;
+    padding: .375rem .75rem;
+    display:block;
+} 
+
+a.btn-menu:hover, a.btn-menu:active, .navbar-toggler:hover, .navbar-toggler:active, a.btn-menu-activo {
+    background-color: #f8b147;
+    color: white;
+    text-decoration: none;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s 
+
+} 
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: black;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:hover {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: white;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: black;
+    border: 0;
+}
+.jumbotron {
+    background-image: url('../imagens/banner0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 0px;
+    border: 3px solid black;
+}
+.banner_baixo {
+    height: 80px;
+}
+.btn-outline-success {
+    color: #888;
+    background-color: transparent;
+    background-image: none;
+    border-color: #888;
+    border-radius: 0px;
+}
+.form-control {
+    border-radius: 0px;
+    border-color: #888;
+    color: #888;
+}
+.form-control:focus {
+    border-color: #f8b147;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #f8b147;
+}
+.btn-outline-success:hover {
+    color: white;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8b147;
+    background-color: #f8b147;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+}
+.display-3 {
+    color: white;
+}
+.btn-primary {
+    background-color: black;
+    border: 1px solid #333;
+    border-radius: 0px;
+
+}
+.btn-primary:hover {
+    background-color: #f8b147;
+    border: 1px solid #333;
+    transition: color .20s ease-in-out,background-color .20s ease-in-out,border-color .20s ease-in-out,box-shadow .20s ease-in-out;
+
+}
+
+.descricao {
+    height: 25px;
+    overflow: hidden;
+}
+.texto {
+    padding: 7px;
+}
+.ano {
+    background-color: #333;
+    color: white;
+}
+/******************************************
+************** Footer *****************
+******************************************/
+footer {
+    height: 100px;
+    color: white;
+    background-color: #333;
+    padding-top: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
